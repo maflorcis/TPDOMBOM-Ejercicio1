@@ -22,7 +22,7 @@ class adivinaDado{
          }
       
         mostrarDatos(){
-            alert(`<h5>La persona tiene las siguientes características: <h5>
+            alert(`<h5>El número elegido para adivinar el dado es: <h5>
             <ol>
             <li>Dado: ${this.numeroDado}</li> 
             </ol>
