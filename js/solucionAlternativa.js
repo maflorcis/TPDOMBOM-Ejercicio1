@@ -35,9 +35,9 @@ class adivinaDado{
             let numeroAdivinar = Math.floor(Math.random()*(6-1 +1) + 1)
             console.log(numeroAdivinar)
             if (this.numeroDado == numeroAdivinar){
-                alert('Has ganado!!')
+                alert('Has ganado el dado es:  '+numeroAdivinar)
             }else{
-                alert('probemos otra vez!')
+                alert('El dado es  '+ numeroAdivinar + '  probemos otra vez!')
             }
           }
 
